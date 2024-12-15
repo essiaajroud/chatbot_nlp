@@ -1,0 +1,257 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "Hi",
+                "Good morning",
+                "Good afternoon",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello",
+                "Hi",
+                "Good morning",
+                "Good afternoon",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I can provide information on symptoms, preventive measures, and general health tips.",
+                "I can help with common health-related questions, guidance on medical topics, and symptom explanations.",
+                "I can assist with checking symptoms, health tips, and answering questions about health and wellness."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "corona_virus",
+            "patterns": [
+                "How to check Adverse Corona virus?",
+                "what are the effect of corona virus",
+                "Give me a symtomps of corona cirus",
+                "List all effects and symptoms of corona virus",
+                "how to overcome our body from corona virus "
+            ],
+            "responses": [
+                "Symtomps: body pain,heavy fever,running nose,head ache,no taste and smell.If you have this symptoms immediately go and check the corona test. Prevention: Wash your hand properly,wash fruits and vegetable,please wear mask if you go outside,don't touch your face often and Take steam vapour often. Medication: Remdesivir but not for under 12 and hydroxychloroquine"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "blood_pressure",
+            "patterns": [
+                "What are the symptoms of blood pressure?",
+                "What are the effects of blood pressure",
+                "How to control the blood pressure level?",
+                "Which medicine could control the blood pressure level?",
+                "How to control the blood pressure level in home?"
+            ],
+            "responses": [
+                "Symptoms: headaches,shortness of breath,nosebleeds,flushing,chest pain and blood in urine. Prevention: Eating heart-healthy food with less salt,don't take alcohol and maintaining a healthy weight. Medication: Diuretics,Angiotensin-converting enzyme inhibitor,Angiotensin II receptor blockers and Calcium channel blockers. "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "diabetics",
+            "patterns": [
+                "What are the symptoms of diabetics?",
+                "What are the effects of diabetics?",
+                "How to control the diabetics?",
+                "Which medicine could control the diabetics?",
+                "How to control the diabetics at home?"
+            ],
+            "responses": [
+                "Symptoms: Increased thrist,frequent urinatin,extreme hunger,Unexplained weight loss,fatigue and blurred vision. Prevention: Exercise regularly,manage your carb intake,increase your fiber intake,drink water often and take easily digestable food,Don't take junk food. Medication: Diabetics are Insulin brand Human Mixtard,oral formulation Glycomet Gp,insulin lantus,oral formulation Galvus met and Janumet are top selling in our country."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skin_problem",
+            "patterns": [
+                "How to prevent basic skin problem like pimple,ringworm and itching?",
+                "Symptoms of skin problem",
+                "Medication for skin problem"
+            ],
+            "responses": [
+                "Prevention: Keep your skin clean and dry,avoid sharing clothes and tight fitting clothing,Wear only cotton type of clothes. Melidation: Clinsol is good result for pimple infection;Antifungal cream,ointments,gel or spray for ringworm and itching,Symptoms:Itching and fungal on the skin"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cancer",
+            "patterns": [
+                "What ere the symptoms of cancer?",
+                "How to prevent the cancer?",
+                "Medication for cancer",
+                "What are the effects of cancer"
+            ],
+            "responses": [
+                "Symptoms: Cancer are Skin changes,persistent cough,trouble breath;Prevention: Don't use tobacco,Eat healthy diet,Protect yourself from sun,Avoid risky behaviour. Medication: Hepatitis B,Human papillomavirus, Effects: Anemia,Appetite loss,Bleeding,constipation,delirium,diarrhea,swelling"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "heart_disease",
+            "patterns": [
+                "What are the symptoms of heart disease?",
+                "How to prevent the heart disease?",
+                "Medication for heart disease"
+            ],
+            "responses": [
+                "Symptoms : Chest pain,tightness,pressure and discomfort,shortness of bresth,pain in neck,jaw,throat and upper abdomen. Prevention: Control blood pressure,Eat healthy diet,Regular exercise,Don't smoke and drink alcohol,maintain good sleep,manage stress and diabetics. Medication: Acebutolol,Atenolol,Betaxolol,Toprol,Coreg CR and propranolol"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "kidney_disease",
+            "patterns": [
+                "What are the symptoms of Kidney disease?",
+                "How to prevent the kidney disease?",
+                "Medication for kidney disease"
+            ],
+            "responses": [
+                "Symptoms : Tiredness,sleeping problem,dry and itchy skin,blood in urine,urine is foamy,puffiness around eyes,Cramping muscles. Prevention: control blood sugar,monitor bp,maintain healthy diet,Drink plenty of fluids,Don't take alcohol and don't smoke,Drink pure water. Medication: Vitamin,Calcium reducer,Bone marrow stimulant,diuretic,Dietary supplement"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "asthma",
+            "patterns": [
+                "What are the symptoms of asthma?",
+                "How to prevent the asthma?",
+                "Medication for asthma"
+            ],
+            "responses": [
+                "Symptoms : Whistling sound when breathing,breathlessness,tight chest,coughing. Prevention: Don't smoke,leave from dusty area,don't take coldy drinks and food,Do yoga at morning. Medication: Albuterol,Levalbuterol,Metaproterenol and Terbutaline"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pneumonia",
+            "patterns": [
+                "What are the symptoms of  pneumonia?",
+                "How to prevent the pneumonia?",
+                "Medication for pneumonia"
+            ],
+            "responses": [
+                "Symptoms : Cough with yellow or green mucus,fever,shaking or chills,sweating,blueness of lips and weakness of body.Prevention:Take flu and pneumococcal vaccine,Avoid sick people,maintain good and healthy food,Don't smoke. Medication: Macrolide antibiotic"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "brain_tumour",
+            "patterns": [
+                "What are the symptoms of  Brain tumour?",
+                "How to prevent the Brain tumour?",
+                "Medication for Brain tumour"
+            ],
+            "responses": [
+                "Symptoms : headaches,seizures,nausea,vomiting,memory problem,paralysis on one side of body,vision problem and speech problem.Prevention: You culd not prevent the brain tumour otherwise you can reduce by avoiding environmental hazrds such as smoking area and excessive exposive radiation area. Medication: Most of brain tumour is surgery which aims to remove as much of abnormal tissue and Chemotherapy"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "malaria",
+            "patterns": [
+                "What are the symptoms of  malaria?",
+                "How to prevent the malaria?",
+                "Medication for malaria"
+            ],
+            "responses": [
+                "Symptoms : heavy fever,sweat and chills,headaches,vomiting,muscle pain and diarrhoea.Prevention: Use mosquito repallant,use mosquito net over the bed, drink pure water,maintain cleanliness around you and your environment. Medication: Chloroquine phosphate "
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
